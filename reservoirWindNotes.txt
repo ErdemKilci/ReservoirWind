@@ -1,0 +1,20 @@
+Echo State Network ESN: a type of RNN designed for processing sequential data. consists of three main components; an input layer, a fixed and randomly initialized reservoir of recurrent neurons, output layer. ESNs captures and reproduces temporal atterns in sequential data,'. dynamic. 
+reservoir serves as a dynamic memory of randomly initialized recurrent neurons.
+training involves linear regression or pseudoinverse to map the reservoir states to the desired output.
+
+major advantage of reservoir computing compared to other recurrent neural networks is fast learning, resulting in low training cost
+
+04.11.2024
+sami yoktu,aleksander ile project rapportun detaylarini konustuk. chaos theory ve different kind of chaotic maps. we have started to try the import the actual data in the google colab and started live coding together with the team members. we went through the next steps; visualizing the data, modelling one time at a step. discrete dynamic system is highly sensitive to initial conditions, a key feature of chaotic systems.
+
+20.01.2025
+Sintefte ilk calisma gunumuzdu.Bize gonderilen datalari kabaca inceledik ve aleksander ve signe ile toplanti yaptik. toplantida data ve surec hakkinda merak ettigimiz seyleri sorduk ve tartistik. tartistigimiz konular soyleydi: datada cok fazla null verdi olmasi. datada iki kez peak yapmasi: bu peak yaptigi kisimlar morning ve evening oluyor cunku insanlar o saatlerde cok enerji kullaniyor. syntetisk data interpolate yapilabilir mi diye sorduk ve bunun mantiksiz oldugunu ogrendik cunku ornegin komple bir mevsim verisi null ise koskoca bir mevsimi sentetik data ile olusturmamiz mantiksiz olur ve bize gercek degerler sunmaz cunku enerji datasi dalgalanmaya yatkin kisin enerji tuketimi fazlayken yazin azaliyor yani mevsimlere gore degisiklik gosteriyor. Null dataya cozum olarak aleksanderdan su tavsiyeyi aldik: null datayi visualisinge ekleyecegiz ve ornegin bu kisimlarda null data olarak plotta gosterecegiz.
+
+Ayrica coding ve rapportun es zamanli gitmesi gerektigi hakkinda tavsiye aldik.
+
+Onumuzdeki haftanin planlamasini yaptik. Birincisi: Datayi anlamak icin visualize edecegiz. Ikincisi: reservoir computing hakkinda okumalar yapip daha cok bilgi edinecegiz. 
+
+24 januar
+By default, matplotlib skips plotting lines for NaN values, resulting in gaps in the plot where data is missing.
+
+excel dosyasindan en optimal sekilde pandas ile read etmeye calistik. time formati dogru olmadigi icin verileri count ile manuell sekilde okutturduk. aradaki linelari da count yaptigi icin 2014 dosyasindaki veriler plotta 2015e sarkti. bu sorunu cozduk. 
