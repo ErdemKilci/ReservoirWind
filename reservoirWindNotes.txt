@@ -18,3 +18,24 @@ Onumuzdeki haftanin planlamasini yaptik. Birincisi: Datayi anlamak icin visualiz
 By default, matplotlib skips plotting lines for NaN values, resulting in gaps in the plot where data is missing.
 
 excel dosyasindan en optimal sekilde pandas ile read etmeye calistik. time formati dogru olmadigi icin verileri count ile manuell sekilde okutturduk. aradaki linelari da count yaptigi icin 2014 dosyasindaki veriler plotta 2015e sarkti. bu sorunu cozduk. 
+
+27 Januar
+Time formati manuell olarak duzeltip scripti sadece 2014 yili veriseti icin denendi, butun 10 senelik dataseti kullanarak calistirildi ve sorunsuz bir sekilde ciktilari verdi. Böylelikle, tahmin edilen enerji kullanimi ve aslinda kullanilan enerjinin 2014-2024 arasi nasil seyir ettigi analiz edilebilir. Bu durum enerji kullaniminin dönem dönem nasil yukselip alcaldigini ve tahmin edilen ile asil olan arasindaki farklar gösteriyor.
+
+28 Januar
+Veriyi taniyip anlayabilmek icin tahmin edilen enerji kullaniminin ve asil enerji kullanimin mean, max ve min ciktisi alindi. 
+Hangi yillarda ne kadar missing values oldugunu yila gore ortaya cikarildi. 
+
+Plot ciktilari yil yil plotlari ayri ayri kaydetmesi icin bir kod yazidli. Islemden gecmis verileri dataset halinde combined_data.csv olarak kaydedildi.
+
+29 Januar
+Missing values inceleme sonucunda Tahmin edilen enerji kullaniminda 12806 ve asil enerji kullaniminda ise 12835 missing values oldugu tespit edildi.
+
+yillara göre artan tahmin edilen verideki hata(Forecast Error Over Time) payini gösteren bir plot ciktisi ile 2014 sonundan 2015 e tahmin edileni nasil degistigini analiz edebilirz.
+
+30 Januar
+Tahmin edilen ve asil olan verilerin aylik ortalamayi gösteren tablo ciktisi olusturuldu. 
+toplam null values ve datasetin yüzde kaci oldugunu gösteren bir tablo olusturuldu.
+Missing data heatmap plot ciktisi ile yillara gore zamanla nerelerde missingvalues oldugu gorunuyor.
+
+time series vizualize etme denemelerimde zaman problemi ile karsilastim, yani zamani asil zaman olarak cekmemesi manuel olarak ayar yapmanin time series gibi bazi acilardan problem olsuturacagi ihtimallerini goz onunde bulundurup hata payini mumkun mertebe azaltmak lazim.
