@@ -44,3 +44,6 @@ time series vizualize etme denemelerimde zaman problemi ile karsilastim, yani za
 Noted what have been done so far and structured all output, plot, code and markdowns tp get readable notebook. did checklist of what have been done and what is missing to go to next step to modeling.
 completed steps are Data cleaning & Preperation, Data Exploration & Summary Statistics, Data Visualisations & Trend Analysis, Handling Large Datasets.
 missing steps are Feature Engineering & Transformations, Outlier Detection & Handling, Correlation Analysis, Sesonality & Trend Analysis, Data Imbalance Check.
+
+17 february
+We had a problem with plots where it was a lot of gaps between hours cause of 24 hour calculation and summer/winter time change. We did meeting with Alexander where we got suggestion to do patern match instead of calculating so the data will just include values of days just under the pattern match dates. the solution will ignore empty lines and dates and include just values. this solution worked on th datasets and we got plots continiously without gap. this fixed a lot of missing values. now we have 1 missing values each year except 2014 and 2024 which they have 8500 and 1500 missing data. Now we have done with cleaning data part we have moved on with plotting number of outliers each year. 
