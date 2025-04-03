@@ -51,3 +51,6 @@ We had a problem with plots where it was a lot of gaps between hours cause of 24
 
 19 february
 We have used rolling windows of 6 hours and 24 hours. Each rolling window shifts forward by 1 hour, incorporating the next 5 hours for the 6-hour window and the next 23 hours for the 24-hour window. This helps capture trends by comparing short-term (6-hour) and long-term (24-hour) variations. The rolling windows also highlight differences between weekdays and weekends, along with other important patterns in the data. Additionally, we have introduced lag features for 1 hour and 24 hours. The 1-hour lag helps capture immediate short-term dependencies in the data, allowing the model to learn from the most recent past values. The 24-hour lag is chosen to capture daily patterns, as electricity load often follows a repeating cycle based on time of day. These lag features help improve the model’s ability to predict future load by incorporating past behavior.
+
+3 april
+sarimax esn ve gbd denedik ve sarimax kotu performans verdi. joblit lib kullanarak run etme suresini 8 dakikadan 4 dakikaya indirdik
