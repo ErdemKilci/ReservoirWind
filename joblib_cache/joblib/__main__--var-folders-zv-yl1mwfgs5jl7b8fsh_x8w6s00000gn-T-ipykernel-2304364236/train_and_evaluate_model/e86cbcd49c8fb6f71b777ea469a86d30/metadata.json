@@ -1,0 +1,1 @@
+{"duration": 7.437345027923584, "input_args": {"model_type": "'cnn'", "hidden_dim": "32", "num_layers": "1", "learning_rate": "0.0003", "epochs": "10", "batch_size": "64", "seed": "44"}, "time": 1744233304.4981089}
