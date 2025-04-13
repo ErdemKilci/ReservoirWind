@@ -54,3 +54,8 @@ We have used rolling windows of 6 hours and 24 hours. Each rolling window shifts
 
 3 april
 sarimax esn ve gbd denedik ve sarimax kotu performans verdi. joblit lib kullanarak run etme suresini 8 dakikadan 4 dakikaya indirdik
+
+13 april
+prophet ekledik ve esnden sonra en iyi model prophet ama hala esni gecemedi. aleksandera danisacagiz cunku prophet daha iyi cikar demisti. 
+Next steps:
+error plotlara propheti de ekleyecegiz claude da yap daha guzel visualize ediyor. 
