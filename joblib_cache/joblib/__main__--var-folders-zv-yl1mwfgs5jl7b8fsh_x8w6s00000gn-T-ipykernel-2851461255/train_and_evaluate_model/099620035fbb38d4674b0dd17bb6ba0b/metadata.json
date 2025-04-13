@@ -1,0 +1,1 @@
+{"duration": 6.354637145996094, "input_args": {"model_type": "'lstm'", "hidden_dim": "32", "num_layers": "1", "learning_rate": "0.0003", "epochs": "10", "batch_size": "64", "seed": "44"}, "time": 1744561855.243747}
