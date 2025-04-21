@@ -1,0 +1,8 @@
+Best Scaling Method: MinMaxScaler
+Best Parameters: {'input_scaling': np.float64(1.073692986900744), 'lr': np.float64(0.49329235432271534), 'sr': np.float64(1.173410314598384), 'units': 846}
+Final Performance:
+  MAE: 140.86
+  RMSE: 185.02
+  MAPE: 0.94%
+  R²: 0.9967
+  Training Time: 4.65s

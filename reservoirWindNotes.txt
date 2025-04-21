@@ -59,3 +59,6 @@ sarimax esn ve gbd denedik ve sarimax kotu performans verdi. joblit lib kullanar
 prophet ekledik ve esnden sonra en iyi model prophet ama hala esni gecemedi. aleksandera danisacagiz cunku prophet daha iyi cikar demisti. 
 Next steps:
 error plotlara propheti de ekleyecegiz claude da yap daha guzel visualize ediyor. 
+
+21 april
+Signe feedbacklerinden sonra standart scaler denedik ama minmax scaler daha iyi sonuclar verdi. Time decompositionu degistirdik ve model performansi artti
